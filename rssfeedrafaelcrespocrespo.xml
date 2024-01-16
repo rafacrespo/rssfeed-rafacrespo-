@@ -1,65 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
-  <channel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="tarearss.xsd">
-    <item>
+<rss version="2.0">
+
+  <channel>
     <title>RSS Feed</title>
     <description>Descripción del canal RSS.</description>
-    </item>
-
-
+    <link>https://www.commafeed.com/#/app/category/all</link>
     <item>
       <title>RevistaCiberseguridad</title>
       <category>Noticias/Informática/Ciberseguridad</category>
-      <description>como actuar ante un trol o hater en Internet.
-      </description>
+      <description>como actuar ante un trol o hater en Internet.</description>
       <link>https://www.revistaciberseguridad.com/2024/01/como-actuar-ante-un-trol-o-hater-en-internet/</link>
-
     </item>
-
 
     <item>
       <title>Geeknetic</title>
-      <description>Primeras impresiones y review de la tarjeta gráfica NVIDIA GeForce RTX 4070
-      </description>
-
-      <category>Noticias/Informática/Tarjeta Gráfica NVIDIA GeForce RTX 4070
-      </category>
-
+      <description>Primeras impresiones y review de la tarjeta gráfica NVIDIA GeForce RTX 4070</description>
+      <category>Noticias/Informática/Tarjeta Gráfica NVIDIA GeForce RTX 4070</category>
       <link>https://www.geeknetic.es/Noticia/30763/NVIDIA-GeForce-RTX-4070-SUPER-Unboxing-y-Primeras-Fotografias.html</link>
-      <image>
-        <url>https://acf.geeknetic.es/imgw/imagenes/auto/2024/1/15/63d-image.png?f=webp</url>
-      </image>
     </item>
 
-
     <item>
-      <textimput>
-        La gama media de telefonía en Xiaomi.
-      </textimput>
       <title>Xataca</title>
       <category>Noticias/Informática/Móviles</category>
       <link>https://www.xataka.com/moviles/entendiendo-quien-quien-nuevos-redmi-note-13-xiaomi-tiene-todo-arsenal-moviles-para-hacerse-gama-media</link>
-      <pubDate>Mon, 15 Jan 2024</pubDate>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>Procesador AMD</title>
       <category>Noticias/Informática/Procesador AMD</category>
       <link>https://hardzone.es/noticias/procesadores/amd-recomienda-usar-ddr5-6000-mhz-nuevos-procesadores/</link>
-      <pubDate>Mon, 15 Jan 2024</pubDate>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>Ubuntu</title>
-      <description>Gestión de software en entornos de red complejos: Snap Store Proxy
-      </description>
+      <description>Gestión de software en entornos de red complejos: Snap Store Proxy</description>
       <link>https://ubuntu.com/blog/managing-software-snap-store-proxy</link>
-    
-      <language>Español</language>
-      <lastBuildDate>Thu, 11 Jan 2024</lastBuildDate>
-      <ttl>60</ttl>
-      <webMaster>a23crcrra@iesgrancapitan.org</webMaster>
-      <generator>Visual Studio Code</generator>
-    
+      <author>HollyHall@example.com</author>
     </item>
+
   </channel>
+</rss>
